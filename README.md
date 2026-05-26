@@ -27,9 +27,28 @@ To implement HASH ALGORITHM
 
 
 ## Program:
+```
+# EX-NO-14 - HASH ALGORITHM
+# AIM: To implement Hash Algorithm
 
+import hashlib
+
+# Input message
+message = input("Enter the message: ")
+
+# Hash generation using SHA-256
+hash_value = hashlib.sha256(message.encode()).hexdigest()
+
+# Display output
+print("\nOriginal Message:", message)
+print("Hash Value (SHA-256):", hash_value)
+
+```
 
 ## Output:
+
+<img width="516" height="137" alt="image" src="https://github.com/user-attachments/assets/392810a6-81a2-4e02-902e-665a9c343f83" />
+
 
 ## Result:
 The program is executed successfully.
